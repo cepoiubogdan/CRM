@@ -61,6 +61,12 @@
     <Compile Include="MeniuPrincipal.Designer.cs">
       <DependentUpon>MeniuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProbramareMasina.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProbramareMasina.Designer.cs">
+      <DependentUpon>ProbramareMasina.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -68,6 +74,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MeniuPrincipal.resx">
       <DependentUpon>MeniuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProbramareMasina.resx">
+      <DependentUpon>ProbramareMasina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

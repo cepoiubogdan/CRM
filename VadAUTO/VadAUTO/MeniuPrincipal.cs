@@ -14,7 +14,8 @@ namespace VadAUTO
     public partial class MeniuPrincipal : Form
     {
         private bool isCollapsed=true;
-        private bool isCollapsed2=true; 
+        private bool isCollapsed2=true;
+        private bool isCollapsed3 = true;
         string path= System.IO.Path.GetDirectoryName(Application.ExecutablePath);
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
@@ -30,6 +31,7 @@ namespace VadAUTO
         public MeniuPrincipal()
         {
             InitializeComponent();
+            probramareMasina1.Hide();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 15, 15));
             Bitmap logo = new Bitmap(path+"\\VadAUTOLogo.png");
            
@@ -105,6 +107,43 @@ namespace VadAUTO
         private void shutdownButton_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            if (isCollapsed3)
+            {
+                Bitmap up = new Bitmap(path + "\\up-arrow.png");
+                serviceButton.Image = up;
+
+                servicePanel.Height += 10;
+                if (servicePanel.Size == servicePanel.MaximumSize)
+                {
+                    timer3.Stop();
+                    isCollapsed3 = false;
+                }
+            }
+            else
+            {
+                Bitmap down = new Bitmap(path + "\\down-arrow.png");
+                serviceButton.Image = down;
+                servicePanel.Height -= 10;
+                if (servicePanel.Size == servicePanel.MinimumSize)
+                {
+                    timer3.Stop();
+                    isCollapsed3 = true;
+                }
+            }
+        }
+
+        private void serviceButton_Click(object sender, EventArgs e)
+        {
+            timer3.Start();
+        }
+
+        private void programareMasina_Click(object sender, EventArgs e)
+        {
+            probramareMasina1.Show();
         }
     }
 }

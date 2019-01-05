@@ -1,7 +1,6 @@
 C:\Users\Cepoiu Bogdan\Desktop\Proiect CRM Dinica\CRM\VadAUTO\VadAUTO\bin\Debug\VadAUTO.exe.config
 C:\Users\Cepoiu Bogdan\Desktop\Proiect CRM Dinica\CRM\VadAUTO\VadAUTO\bin\Debug\VadAUTO.exe
 C:\Users\Cepoiu Bogdan\Desktop\Proiect CRM Dinica\CRM\VadAUTO\VadAUTO\bin\Debug\VadAUTO.pdb
-C:\Users\Cepoiu Bogdan\Desktop\Proiect CRM Dinica\CRM\VadAUTO\VadAUTO\obj\Debug\VadAUTO.csprojAssemblyReference.cache
 C:\Users\Cepoiu Bogdan\Desktop\Proiect CRM Dinica\CRM\VadAUTO\VadAUTO\obj\Debug\VadAUTO.Form1.resources
 C:\Users\Cepoiu Bogdan\Desktop\Proiect CRM Dinica\CRM\VadAUTO\VadAUTO\obj\Debug\VadAUTO.Properties.Resources.resources
 C:\Users\Cepoiu Bogdan\Desktop\Proiect CRM Dinica\CRM\VadAUTO\VadAUTO\obj\Debug\VadAUTO.csproj.GenerateResource.cache
@@ -13,3 +12,5 @@ C:\Users\Cepoiu Bogdan\Desktop\Proiect CRM Dinica\CRM\VadAUTO\VadAUTO\bin\Debug\
 C:\Users\Cepoiu Bogdan\Desktop\Proiect CRM Dinica\CRM\VadAUTO\VadAUTO\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Cepoiu Bogdan\Desktop\Proiect CRM Dinica\CRM\VadAUTO\VadAUTO\obj\Debug\VadAUTO.csproj.CopyComplete
 C:\Users\Cepoiu Bogdan\Desktop\Proiect CRM Dinica\CRM\VadAUTO\VadAUTO\obj\Debug\VadAUTO.MeniuPrincipal.resources
+C:\Users\Cepoiu Bogdan\Desktop\Proiect CRM Dinica\CRM\VadAUTO\VadAUTO\obj\Debug\VadAUTO.ProbramareMasina.resources
+C:\Users\Cepoiu Bogdan\Desktop\Proiect CRM Dinica\CRM\VadAUTO\VadAUTO\obj\Debug\VadAUTO.csprojAssemblyReference.cache

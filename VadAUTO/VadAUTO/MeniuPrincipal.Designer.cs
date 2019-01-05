@@ -30,42 +30,50 @@
         {
             this.components = new System.ComponentModel.Container();
             this.SetariPanel = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.conturiBancareButton = new System.Windows.Forms.Button();
+            this.echipeButton = new System.Windows.Forms.Button();
+            this.dateFacturareButton = new System.Windows.Forms.Button();
+            this.gestionarePctLucruButton = new System.Windows.Forms.Button();
+            this.gestionareUtilizatoriButton = new System.Windows.Forms.Button();
+            this.centreDeCostButton = new System.Windows.Forms.Button();
+            this.dateFirmaButton = new System.Windows.Forms.Button();
             this.vanzariPanel = new System.Windows.Forms.Panel();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.produseSiServiciButton = new System.Windows.Forms.Button();
+            this.registruDeCaseButton = new System.Windows.Forms.Button();
+            this.oportunitatiButton = new System.Windows.Forms.Button();
+            this.contracteButton = new System.Windows.Forms.Button();
+            this.devizeButton = new System.Windows.Forms.Button();
+            this.chitanteButton = new System.Windows.Forms.Button();
+            this.facturariButton = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.servicePanel = new System.Windows.Forms.Panel();
+            this.devizEstimativButton = new System.Windows.Forms.Button();
+            this.receptieMasina = new System.Windows.Forms.Button();
+            this.programareMasina = new System.Windows.Forms.Button();
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.probramareMasina1 = new VadAUTO.ProbramareMasina();
             this.shutdownButton = new System.Windows.Forms.Button();
             this.setariButton = new System.Windows.Forms.Button();
             this.vanzariButton = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.serviceButton = new System.Windows.Forms.Button();
             this.SetariPanel.SuspendLayout();
             this.vanzariPanel.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
+            this.servicePanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // SetariPanel
             // 
-            this.SetariPanel.Controls.Add(this.button8);
-            this.SetariPanel.Controls.Add(this.button7);
-            this.SetariPanel.Controls.Add(this.button6);
-            this.SetariPanel.Controls.Add(this.button5);
-            this.SetariPanel.Controls.Add(this.button4);
-            this.SetariPanel.Controls.Add(this.button3);
-            this.SetariPanel.Controls.Add(this.button2);
+            this.SetariPanel.Controls.Add(this.conturiBancareButton);
+            this.SetariPanel.Controls.Add(this.echipeButton);
+            this.SetariPanel.Controls.Add(this.dateFacturareButton);
+            this.SetariPanel.Controls.Add(this.gestionarePctLucruButton);
+            this.SetariPanel.Controls.Add(this.gestionareUtilizatoriButton);
+            this.SetariPanel.Controls.Add(this.centreDeCostButton);
+            this.SetariPanel.Controls.Add(this.dateFirmaButton);
             this.SetariPanel.Controls.Add(this.setariButton);
             this.SetariPanel.Location = new System.Drawing.Point(3, 50);
             this.SetariPanel.Margin = new System.Windows.Forms.Padding(3, 50, 3, 3);
@@ -75,120 +83,120 @@
             this.SetariPanel.Size = new System.Drawing.Size(239, 53);
             this.SetariPanel.TabIndex = 1;
             // 
-            // button8
+            // conturiBancareButton
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button8.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button8.Location = new System.Drawing.Point(0, 287);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(239, 40);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Conturi Bancare";
-            this.button8.UseVisualStyleBackColor = false;
+            this.conturiBancareButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.conturiBancareButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.conturiBancareButton.FlatAppearance.BorderSize = 0;
+            this.conturiBancareButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.conturiBancareButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.conturiBancareButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.conturiBancareButton.Location = new System.Drawing.Point(0, 287);
+            this.conturiBancareButton.Name = "conturiBancareButton";
+            this.conturiBancareButton.Size = new System.Drawing.Size(239, 40);
+            this.conturiBancareButton.TabIndex = 7;
+            this.conturiBancareButton.Text = "Conturi Bancare";
+            this.conturiBancareButton.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // echipeButton
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button7.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button7.Location = new System.Drawing.Point(0, 248);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(239, 39);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Echipe";
-            this.button7.UseVisualStyleBackColor = false;
+            this.echipeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.echipeButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.echipeButton.FlatAppearance.BorderSize = 0;
+            this.echipeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.echipeButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.echipeButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.echipeButton.Location = new System.Drawing.Point(0, 248);
+            this.echipeButton.Name = "echipeButton";
+            this.echipeButton.Size = new System.Drawing.Size(239, 39);
+            this.echipeButton.TabIndex = 6;
+            this.echipeButton.Text = "Echipe";
+            this.echipeButton.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // dateFacturareButton
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button6.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button6.Location = new System.Drawing.Point(0, 209);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(239, 39);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Date facturare";
-            this.button6.UseVisualStyleBackColor = false;
+            this.dateFacturareButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.dateFacturareButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dateFacturareButton.FlatAppearance.BorderSize = 0;
+            this.dateFacturareButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dateFacturareButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.dateFacturareButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.dateFacturareButton.Location = new System.Drawing.Point(0, 209);
+            this.dateFacturareButton.Name = "dateFacturareButton";
+            this.dateFacturareButton.Size = new System.Drawing.Size(239, 39);
+            this.dateFacturareButton.TabIndex = 5;
+            this.dateFacturareButton.Text = "Date facturare";
+            this.dateFacturareButton.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // gestionarePctLucruButton
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button5.Location = new System.Drawing.Point(0, 170);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(239, 39);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Gestionare pct de Lucru";
-            this.button5.UseVisualStyleBackColor = false;
+            this.gestionarePctLucruButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.gestionarePctLucruButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gestionarePctLucruButton.FlatAppearance.BorderSize = 0;
+            this.gestionarePctLucruButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.gestionarePctLucruButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.gestionarePctLucruButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.gestionarePctLucruButton.Location = new System.Drawing.Point(0, 170);
+            this.gestionarePctLucruButton.Name = "gestionarePctLucruButton";
+            this.gestionarePctLucruButton.Size = new System.Drawing.Size(239, 39);
+            this.gestionarePctLucruButton.TabIndex = 4;
+            this.gestionarePctLucruButton.Text = "Gestionare pct de Lucru";
+            this.gestionarePctLucruButton.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // gestionareUtilizatoriButton
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button4.Location = new System.Drawing.Point(0, 131);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(239, 39);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Gestionare utilizatori";
-            this.button4.UseVisualStyleBackColor = false;
+            this.gestionareUtilizatoriButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.gestionareUtilizatoriButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gestionareUtilizatoriButton.FlatAppearance.BorderSize = 0;
+            this.gestionareUtilizatoriButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.gestionareUtilizatoriButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.gestionareUtilizatoriButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.gestionareUtilizatoriButton.Location = new System.Drawing.Point(0, 131);
+            this.gestionareUtilizatoriButton.Name = "gestionareUtilizatoriButton";
+            this.gestionareUtilizatoriButton.Size = new System.Drawing.Size(239, 39);
+            this.gestionareUtilizatoriButton.TabIndex = 3;
+            this.gestionareUtilizatoriButton.Text = "Gestionare utilizatori";
+            this.gestionareUtilizatoriButton.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // centreDeCostButton
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button3.Location = new System.Drawing.Point(0, 92);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(239, 39);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Centre de Cost";
-            this.button3.UseVisualStyleBackColor = false;
+            this.centreDeCostButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.centreDeCostButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.centreDeCostButton.FlatAppearance.BorderSize = 0;
+            this.centreDeCostButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.centreDeCostButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.centreDeCostButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.centreDeCostButton.Location = new System.Drawing.Point(0, 92);
+            this.centreDeCostButton.Name = "centreDeCostButton";
+            this.centreDeCostButton.Size = new System.Drawing.Size(239, 39);
+            this.centreDeCostButton.TabIndex = 2;
+            this.centreDeCostButton.Text = "Centre de Cost";
+            this.centreDeCostButton.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // dateFirmaButton
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button2.Location = new System.Drawing.Point(0, 53);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(239, 39);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Date Firma";
-            this.button2.UseVisualStyleBackColor = false;
+            this.dateFirmaButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.dateFirmaButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dateFirmaButton.FlatAppearance.BorderSize = 0;
+            this.dateFirmaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dateFirmaButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.dateFirmaButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.dateFirmaButton.Location = new System.Drawing.Point(0, 53);
+            this.dateFirmaButton.Name = "dateFirmaButton";
+            this.dateFirmaButton.Size = new System.Drawing.Size(239, 39);
+            this.dateFirmaButton.TabIndex = 1;
+            this.dateFirmaButton.Text = "Date Firma";
+            this.dateFirmaButton.UseVisualStyleBackColor = false;
             // 
             // vanzariPanel
             // 
-            this.vanzariPanel.Controls.Add(this.button15);
-            this.vanzariPanel.Controls.Add(this.button14);
-            this.vanzariPanel.Controls.Add(this.button13);
-            this.vanzariPanel.Controls.Add(this.button12);
-            this.vanzariPanel.Controls.Add(this.button11);
-            this.vanzariPanel.Controls.Add(this.button10);
-            this.vanzariPanel.Controls.Add(this.button9);
+            this.vanzariPanel.Controls.Add(this.produseSiServiciButton);
+            this.vanzariPanel.Controls.Add(this.registruDeCaseButton);
+            this.vanzariPanel.Controls.Add(this.oportunitatiButton);
+            this.vanzariPanel.Controls.Add(this.contracteButton);
+            this.vanzariPanel.Controls.Add(this.devizeButton);
+            this.vanzariPanel.Controls.Add(this.chitanteButton);
+            this.vanzariPanel.Controls.Add(this.facturariButton);
             this.vanzariPanel.Controls.Add(this.vanzariButton);
             this.vanzariPanel.Location = new System.Drawing.Point(3, 109);
             this.vanzariPanel.MaximumSize = new System.Drawing.Size(239, 328);
@@ -197,110 +205,110 @@
             this.vanzariPanel.Size = new System.Drawing.Size(239, 53);
             this.vanzariPanel.TabIndex = 1;
             // 
-            // button15
+            // produseSiServiciButton
             // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button15.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button15.Location = new System.Drawing.Point(0, 287);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(239, 39);
-            this.button15.TabIndex = 8;
-            this.button15.Text = "Produse si Servici";
-            this.button15.UseVisualStyleBackColor = false;
+            this.produseSiServiciButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.produseSiServiciButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.produseSiServiciButton.FlatAppearance.BorderSize = 0;
+            this.produseSiServiciButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.produseSiServiciButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.produseSiServiciButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.produseSiServiciButton.Location = new System.Drawing.Point(0, 287);
+            this.produseSiServiciButton.Name = "produseSiServiciButton";
+            this.produseSiServiciButton.Size = new System.Drawing.Size(239, 39);
+            this.produseSiServiciButton.TabIndex = 8;
+            this.produseSiServiciButton.Text = "Produse si Servici";
+            this.produseSiServiciButton.UseVisualStyleBackColor = false;
             // 
-            // button14
+            // registruDeCaseButton
             // 
-            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button14.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button14.Location = new System.Drawing.Point(0, 248);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(239, 39);
-            this.button14.TabIndex = 7;
-            this.button14.Text = "Registru de Case";
-            this.button14.UseVisualStyleBackColor = false;
+            this.registruDeCaseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.registruDeCaseButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.registruDeCaseButton.FlatAppearance.BorderSize = 0;
+            this.registruDeCaseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.registruDeCaseButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.registruDeCaseButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.registruDeCaseButton.Location = new System.Drawing.Point(0, 248);
+            this.registruDeCaseButton.Name = "registruDeCaseButton";
+            this.registruDeCaseButton.Size = new System.Drawing.Size(239, 39);
+            this.registruDeCaseButton.TabIndex = 7;
+            this.registruDeCaseButton.Text = "Registru de Case";
+            this.registruDeCaseButton.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // oportunitatiButton
             // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button13.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button13.Location = new System.Drawing.Point(0, 209);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(239, 39);
-            this.button13.TabIndex = 6;
-            this.button13.Text = "Oportunitati";
-            this.button13.UseVisualStyleBackColor = false;
+            this.oportunitatiButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.oportunitatiButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.oportunitatiButton.FlatAppearance.BorderSize = 0;
+            this.oportunitatiButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.oportunitatiButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.oportunitatiButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.oportunitatiButton.Location = new System.Drawing.Point(0, 209);
+            this.oportunitatiButton.Name = "oportunitatiButton";
+            this.oportunitatiButton.Size = new System.Drawing.Size(239, 39);
+            this.oportunitatiButton.TabIndex = 6;
+            this.oportunitatiButton.Text = "Oportunitati";
+            this.oportunitatiButton.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // contracteButton
             // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button12.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button12.Location = new System.Drawing.Point(0, 170);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(239, 39);
-            this.button12.TabIndex = 5;
-            this.button12.Text = "Contracte";
-            this.button12.UseVisualStyleBackColor = false;
+            this.contracteButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.contracteButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.contracteButton.FlatAppearance.BorderSize = 0;
+            this.contracteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.contracteButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.contracteButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.contracteButton.Location = new System.Drawing.Point(0, 170);
+            this.contracteButton.Name = "contracteButton";
+            this.contracteButton.Size = new System.Drawing.Size(239, 39);
+            this.contracteButton.TabIndex = 5;
+            this.contracteButton.Text = "Contracte";
+            this.contracteButton.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // devizeButton
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button11.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button11.Location = new System.Drawing.Point(0, 131);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(239, 39);
-            this.button11.TabIndex = 4;
-            this.button11.Text = "Devize";
-            this.button11.UseVisualStyleBackColor = false;
+            this.devizeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.devizeButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.devizeButton.FlatAppearance.BorderSize = 0;
+            this.devizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.devizeButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.devizeButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.devizeButton.Location = new System.Drawing.Point(0, 131);
+            this.devizeButton.Name = "devizeButton";
+            this.devizeButton.Size = new System.Drawing.Size(239, 39);
+            this.devizeButton.TabIndex = 4;
+            this.devizeButton.Text = "Devize";
+            this.devizeButton.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // chitanteButton
             // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button10.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button10.Location = new System.Drawing.Point(0, 92);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(239, 39);
-            this.button10.TabIndex = 3;
-            this.button10.Text = "Chitante";
-            this.button10.UseVisualStyleBackColor = false;
+            this.chitanteButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.chitanteButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.chitanteButton.FlatAppearance.BorderSize = 0;
+            this.chitanteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chitanteButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.chitanteButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.chitanteButton.Location = new System.Drawing.Point(0, 92);
+            this.chitanteButton.Name = "chitanteButton";
+            this.chitanteButton.Size = new System.Drawing.Size(239, 39);
+            this.chitanteButton.TabIndex = 3;
+            this.chitanteButton.Text = "Chitante";
+            this.chitanteButton.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // facturariButton
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Malgun Gothic", 14.25F);
-            this.button9.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button9.Location = new System.Drawing.Point(0, 53);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(239, 39);
-            this.button9.TabIndex = 2;
-            this.button9.Text = "Facturari";
-            this.button9.UseVisualStyleBackColor = false;
+            this.facturariButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.facturariButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.facturariButton.FlatAppearance.BorderSize = 0;
+            this.facturariButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.facturariButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.facturariButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.facturariButton.Location = new System.Drawing.Point(0, 53);
+            this.facturariButton.Name = "facturariButton";
+            this.facturariButton.Size = new System.Drawing.Size(239, 39);
+            this.facturariButton.TabIndex = 2;
+            this.facturariButton.Text = "Facturari";
+            this.facturariButton.UseVisualStyleBackColor = false;
             // 
             // timer1
             // 
@@ -311,6 +319,99 @@
             // 
             this.timer2.Interval = 15;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(8)))), ((int)(((byte)(5)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1200, 17);
+            this.panel1.TabIndex = 1;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.flowLayoutPanel1.Controls.Add(this.SetariPanel);
+            this.flowLayoutPanel1.Controls.Add(this.vanzariPanel);
+            this.flowLayoutPanel1.Controls.Add(this.servicePanel);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(250, 720);
+            this.flowLayoutPanel1.TabIndex = 0;
+            // 
+            // servicePanel
+            // 
+            this.servicePanel.Controls.Add(this.devizEstimativButton);
+            this.servicePanel.Controls.Add(this.receptieMasina);
+            this.servicePanel.Controls.Add(this.programareMasina);
+            this.servicePanel.Controls.Add(this.serviceButton);
+            this.servicePanel.Location = new System.Drawing.Point(3, 168);
+            this.servicePanel.MaximumSize = new System.Drawing.Size(239, 171);
+            this.servicePanel.MinimumSize = new System.Drawing.Size(239, 53);
+            this.servicePanel.Name = "servicePanel";
+            this.servicePanel.Size = new System.Drawing.Size(239, 53);
+            this.servicePanel.TabIndex = 3;
+            // 
+            // devizEstimativButton
+            // 
+            this.devizEstimativButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.devizEstimativButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.devizEstimativButton.FlatAppearance.BorderSize = 0;
+            this.devizEstimativButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.devizEstimativButton.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.devizEstimativButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.devizEstimativButton.Location = new System.Drawing.Point(0, 131);
+            this.devizEstimativButton.Name = "devizEstimativButton";
+            this.devizEstimativButton.Size = new System.Drawing.Size(239, 39);
+            this.devizEstimativButton.TabIndex = 4;
+            this.devizEstimativButton.Text = "Deviz Estimativ";
+            this.devizEstimativButton.UseVisualStyleBackColor = false;
+            // 
+            // receptieMasina
+            // 
+            this.receptieMasina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.receptieMasina.Dock = System.Windows.Forms.DockStyle.Top;
+            this.receptieMasina.FlatAppearance.BorderSize = 0;
+            this.receptieMasina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.receptieMasina.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.receptieMasina.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.receptieMasina.Location = new System.Drawing.Point(0, 92);
+            this.receptieMasina.Name = "receptieMasina";
+            this.receptieMasina.Size = new System.Drawing.Size(239, 39);
+            this.receptieMasina.TabIndex = 3;
+            this.receptieMasina.Text = "Receptie Masina";
+            this.receptieMasina.UseVisualStyleBackColor = false;
+            // 
+            // programareMasina
+            // 
+            this.programareMasina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.programareMasina.Dock = System.Windows.Forms.DockStyle.Top;
+            this.programareMasina.FlatAppearance.BorderSize = 0;
+            this.programareMasina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.programareMasina.Font = new System.Drawing.Font("Malgun Gothic", 11.25F);
+            this.programareMasina.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.programareMasina.Location = new System.Drawing.Point(0, 53);
+            this.programareMasina.Name = "programareMasina";
+            this.programareMasina.Size = new System.Drawing.Size(239, 39);
+            this.programareMasina.TabIndex = 2;
+            this.programareMasina.Text = "Programare Masina";
+            this.programareMasina.UseVisualStyleBackColor = false;
+            this.programareMasina.Click += new System.EventHandler(this.programareMasina_Click);
+            // 
+            // timer3
+            // 
+            this.timer3.Interval = 15;
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            // 
+            // probramareMasina1
+            // 
+            this.probramareMasina1.Font = new System.Drawing.Font("Malgun Gothic", 10.25F);
+            this.probramareMasina1.Location = new System.Drawing.Point(257, 103);
+            this.probramareMasina1.Margin = new System.Windows.Forms.Padding(4);
+            this.probramareMasina1.Name = "probramareMasina1";
+            this.probramareMasina1.Size = new System.Drawing.Size(943, 415);
+            this.probramareMasina1.TabIndex = 3;
             // 
             // shutdownButton
             // 
@@ -362,31 +463,31 @@
             this.vanzariButton.UseVisualStyleBackColor = false;
             this.vanzariButton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panel1
+            // serviceButton
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(8)))), ((int)(((byte)(5)))));
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(250, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(950, 17);
-            this.panel1.TabIndex = 1;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.flowLayoutPanel1.Controls.Add(this.SetariPanel);
-            this.flowLayoutPanel1.Controls.Add(this.vanzariPanel);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(250, 720);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.serviceButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.serviceButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.serviceButton.FlatAppearance.BorderSize = 0;
+            this.serviceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.serviceButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.serviceButton.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.serviceButton.Image = global::VadAUTO.Properties.Resources.down_arrow1;
+            this.serviceButton.Location = new System.Drawing.Point(0, 0);
+            this.serviceButton.Name = "serviceButton";
+            this.serviceButton.Size = new System.Drawing.Size(239, 53);
+            this.serviceButton.TabIndex = 1;
+            this.serviceButton.Text = "Service";
+            this.serviceButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.serviceButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.serviceButton.UseVisualStyleBackColor = false;
+            this.serviceButton.Click += new System.EventHandler(this.serviceButton_Click);
             // 
             // MeniuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 720);
+            this.Controls.Add(this.probramareMasina1);
             this.Controls.Add(this.shutdownButton);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel1);
@@ -398,6 +499,7 @@
             this.SetariPanel.ResumeLayout(false);
             this.vanzariPanel.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.servicePanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -405,26 +507,33 @@
         #endregion
         private System.Windows.Forms.Button setariButton;
         private System.Windows.Forms.Panel SetariPanel;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button dateFirmaButton;
+        private System.Windows.Forms.Button conturiBancareButton;
+        private System.Windows.Forms.Button echipeButton;
+        private System.Windows.Forms.Button dateFacturareButton;
+        private System.Windows.Forms.Button gestionarePctLucruButton;
+        private System.Windows.Forms.Button gestionareUtilizatoriButton;
+        private System.Windows.Forms.Button centreDeCostButton;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Panel vanzariPanel;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button produseSiServiciButton;
+        private System.Windows.Forms.Button registruDeCaseButton;
+        private System.Windows.Forms.Button oportunitatiButton;
+        private System.Windows.Forms.Button contracteButton;
+        private System.Windows.Forms.Button devizeButton;
+        private System.Windows.Forms.Button chitanteButton;
+        private System.Windows.Forms.Button facturariButton;
         private System.Windows.Forms.Button vanzariButton;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Button shutdownButton;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Panel servicePanel;
+        private System.Windows.Forms.Button devizEstimativButton;
+        private System.Windows.Forms.Button receptieMasina;
+        private System.Windows.Forms.Button programareMasina;
+        private System.Windows.Forms.Button serviceButton;
+        private System.Windows.Forms.Timer timer3;
+        private ProbramareMasina probramareMasina1;
     }
 }
